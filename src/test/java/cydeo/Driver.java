@@ -15,7 +15,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.net.URL;
 
-public class Driver {
+public class Driver  {
     static String browser;
 
     private Driver() {
@@ -35,7 +35,7 @@ public class Driver {
                 case "remote-chrome":
                     try {
                         // assign your grid server address
-                        String gridAddress = "54.234.84.104";
+                        String gridAddress = "54.209.93.174";
                         URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
